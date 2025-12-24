@@ -17,7 +17,7 @@ namespace StockManagement.Data
         public DbSet<Sale> Sales { get; set; }
 
         public DbSet<User> Users { get; set;}
-        public DbSet<Otp> Otps { get; set; }
+       
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>()
